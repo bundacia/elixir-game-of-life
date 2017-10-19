@@ -2,7 +2,7 @@ defmodule GolWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", GolWeb.RoomChannel
+  channel "map", GolWeb.MapChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket

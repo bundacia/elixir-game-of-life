@@ -1,1 +1,15 @@
 /* This file is for your main application css. */
+
+.row {
+  margin: 10px
+}
+
+.cell.alive::before {
+  content: "🔵"
+}
+.cell.dead::before {
+  content: "⚪️"
+}
+.cell {
+  margin-right: 10px
+}

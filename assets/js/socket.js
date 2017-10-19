@@ -54,9 +54,34 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 socket.connect()
 
 // Now that you are connected, you can join channels with a topic:
-let channel = socket.channel("topic:subtopic", {})
+let channel = socket.channel("map", {})
 channel.join()
   .receive("ok", resp => { console.log("Joined successfully", resp) })
   .receive("error", resp => { console.log("Unable to join", resp) })
+
+channel.on("tick", payload => {
+  // const m = payload.map
+  // console.log(
+  //   m.slice(0,5).map(x => x ? "X" : " ").join(""), "\n",
+  //   m.slice(5,10).map(x => x ? "X" : " ").join(""), "\n",
+  //   m.slice(10,15).map(x => x ? "X" : " ").join(""), "\n",
+  //   m.slice(15,20).map(x => x ? "X" : " ").join(""), "\n",
+  //   m.slice(20,25).map(x => x ? "X" : " ").join(""),
+  // )
+  payload.map.forEach((alive, i) => {
+    const classList = document.getElementById("cell"+i).classList
+    if (alive) {
+      classList.remove("dead")
+      classList.add("alive")
+    } else {
+      classList.remove("alive")
+      classList.add("dead")
+    }
+  })
+
+  // let messageItem = document.createElement("li");
+  // messageItem.innerText = `[${Date()}] ${payload.body}`
+  // messagesContainer.appendChild(messageItem)
+})
 
 export default socket

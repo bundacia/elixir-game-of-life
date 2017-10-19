@@ -1,36 +1,440 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+<div class="row">
+  <span id="cell0" class="cell dead"></span>
+  <span id="cell1" class="cell dead"></span>
+  <span id="cell2" class="cell dead"></span>
+  <span id="cell3" class="cell dead"></span>
+  <span id="cell4" class="cell dead"></span>
+  <span id="cell5" class="cell dead"></span>
+  <span id="cell6" class="cell dead"></span>
+  <span id="cell7" class="cell dead"></span>
+  <span id="cell8" class="cell dead"></span>
+  <span id="cell9" class="cell dead"></span>
+  <span id="cell10" class="cell dead"></span>
+  <span id="cell11" class="cell dead"></span>
+  <span id="cell12" class="cell dead"></span>
+  <span id="cell13" class="cell dead"></span>
+  <span id="cell14" class="cell dead"></span>
+  <span id="cell15" class="cell dead"></span>
+  <span id="cell16" class="cell dead"></span>
+  <span id="cell17" class="cell dead"></span>
+  <span id="cell18" class="cell dead"></span>
+  <span id="cell19" class="cell dead"></span>
 </div>
-
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
+<div class="row">
+  <span id="cell20" class="cell dead"></span>
+  <span id="cell21" class="cell dead"></span>
+  <span id="cell22" class="cell dead"></span>
+  <span id="cell23" class="cell dead"></span>
+  <span id="cell24" class="cell dead"></span>
+  <span id="cell25" class="cell dead"></span>
+  <span id="cell26" class="cell dead"></span>
+  <span id="cell27" class="cell dead"></span>
+  <span id="cell28" class="cell dead"></span>
+  <span id="cell29" class="cell dead"></span>
+  <span id="cell30" class="cell dead"></span>
+  <span id="cell31" class="cell dead"></span>
+  <span id="cell32" class="cell dead"></span>
+  <span id="cell33" class="cell dead"></span>
+  <span id="cell34" class="cell dead"></span>
+  <span id="cell35" class="cell dead"></span>
+  <span id="cell36" class="cell dead"></span>
+  <span id="cell37" class="cell dead"></span>
+  <span id="cell38" class="cell dead"></span>
+  <span id="cell39" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell40" class="cell dead"></span>
+  <span id="cell41" class="cell dead"></span>
+  <span id="cell42" class="cell dead"></span>
+  <span id="cell43" class="cell dead"></span>
+  <span id="cell44" class="cell dead"></span>
+  <span id="cell45" class="cell dead"></span>
+  <span id="cell46" class="cell dead"></span>
+  <span id="cell47" class="cell dead"></span>
+  <span id="cell48" class="cell dead"></span>
+  <span id="cell49" class="cell dead"></span>
+  <span id="cell50" class="cell dead"></span>
+  <span id="cell51" class="cell dead"></span>
+  <span id="cell52" class="cell dead"></span>
+  <span id="cell53" class="cell dead"></span>
+  <span id="cell54" class="cell dead"></span>
+  <span id="cell55" class="cell dead"></span>
+  <span id="cell56" class="cell dead"></span>
+  <span id="cell57" class="cell dead"></span>
+  <span id="cell58" class="cell dead"></span>
+  <span id="cell59" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell60" class="cell dead"></span>
+  <span id="cell61" class="cell dead"></span>
+  <span id="cell62" class="cell dead"></span>
+  <span id="cell63" class="cell dead"></span>
+  <span id="cell64" class="cell dead"></span>
+  <span id="cell65" class="cell dead"></span>
+  <span id="cell66" class="cell dead"></span>
+  <span id="cell67" class="cell dead"></span>
+  <span id="cell68" class="cell dead"></span>
+  <span id="cell69" class="cell dead"></span>
+  <span id="cell70" class="cell dead"></span>
+  <span id="cell71" class="cell dead"></span>
+  <span id="cell72" class="cell dead"></span>
+  <span id="cell73" class="cell dead"></span>
+  <span id="cell74" class="cell dead"></span>
+  <span id="cell75" class="cell dead"></span>
+  <span id="cell76" class="cell dead"></span>
+  <span id="cell77" class="cell dead"></span>
+  <span id="cell78" class="cell dead"></span>
+  <span id="cell79" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell80" class="cell dead"></span>
+  <span id="cell81" class="cell dead"></span>
+  <span id="cell82" class="cell dead"></span>
+  <span id="cell83" class="cell dead"></span>
+  <span id="cell84" class="cell dead"></span>
+  <span id="cell85" class="cell dead"></span>
+  <span id="cell86" class="cell dead"></span>
+  <span id="cell87" class="cell dead"></span>
+  <span id="cell88" class="cell dead"></span>
+  <span id="cell89" class="cell dead"></span>
+  <span id="cell90" class="cell dead"></span>
+  <span id="cell91" class="cell dead"></span>
+  <span id="cell92" class="cell dead"></span>
+  <span id="cell93" class="cell dead"></span>
+  <span id="cell94" class="cell dead"></span>
+  <span id="cell95" class="cell dead"></span>
+  <span id="cell96" class="cell dead"></span>
+  <span id="cell97" class="cell dead"></span>
+  <span id="cell98" class="cell dead"></span>
+  <span id="cell99" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell100" class="cell dead"></span>
+  <span id="cell101" class="cell dead"></span>
+  <span id="cell102" class="cell dead"></span>
+  <span id="cell103" class="cell dead"></span>
+  <span id="cell104" class="cell dead"></span>
+  <span id="cell105" class="cell dead"></span>
+  <span id="cell106" class="cell dead"></span>
+  <span id="cell107" class="cell dead"></span>
+  <span id="cell108" class="cell dead"></span>
+  <span id="cell109" class="cell dead"></span>
+  <span id="cell110" class="cell dead"></span>
+  <span id="cell111" class="cell dead"></span>
+  <span id="cell112" class="cell dead"></span>
+  <span id="cell113" class="cell dead"></span>
+  <span id="cell114" class="cell dead"></span>
+  <span id="cell115" class="cell dead"></span>
+  <span id="cell116" class="cell dead"></span>
+  <span id="cell117" class="cell dead"></span>
+  <span id="cell118" class="cell dead"></span>
+  <span id="cell119" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell120" class="cell dead"></span>
+  <span id="cell121" class="cell dead"></span>
+  <span id="cell122" class="cell dead"></span>
+  <span id="cell123" class="cell dead"></span>
+  <span id="cell124" class="cell dead"></span>
+  <span id="cell125" class="cell dead"></span>
+  <span id="cell126" class="cell dead"></span>
+  <span id="cell127" class="cell dead"></span>
+  <span id="cell128" class="cell dead"></span>
+  <span id="cell129" class="cell dead"></span>
+  <span id="cell130" class="cell dead"></span>
+  <span id="cell131" class="cell dead"></span>
+  <span id="cell132" class="cell dead"></span>
+  <span id="cell133" class="cell dead"></span>
+  <span id="cell134" class="cell dead"></span>
+  <span id="cell135" class="cell dead"></span>
+  <span id="cell136" class="cell dead"></span>
+  <span id="cell137" class="cell dead"></span>
+  <span id="cell138" class="cell dead"></span>
+  <span id="cell139" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell140" class="cell dead"></span>
+  <span id="cell141" class="cell dead"></span>
+  <span id="cell142" class="cell dead"></span>
+  <span id="cell143" class="cell dead"></span>
+  <span id="cell144" class="cell dead"></span>
+  <span id="cell145" class="cell dead"></span>
+  <span id="cell146" class="cell dead"></span>
+  <span id="cell147" class="cell dead"></span>
+  <span id="cell148" class="cell dead"></span>
+  <span id="cell149" class="cell dead"></span>
+  <span id="cell150" class="cell dead"></span>
+  <span id="cell151" class="cell dead"></span>
+  <span id="cell152" class="cell dead"></span>
+  <span id="cell153" class="cell dead"></span>
+  <span id="cell154" class="cell dead"></span>
+  <span id="cell155" class="cell dead"></span>
+  <span id="cell156" class="cell dead"></span>
+  <span id="cell157" class="cell dead"></span>
+  <span id="cell158" class="cell dead"></span>
+  <span id="cell159" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell160" class="cell dead"></span>
+  <span id="cell161" class="cell dead"></span>
+  <span id="cell162" class="cell dead"></span>
+  <span id="cell163" class="cell dead"></span>
+  <span id="cell164" class="cell dead"></span>
+  <span id="cell165" class="cell dead"></span>
+  <span id="cell166" class="cell dead"></span>
+  <span id="cell167" class="cell dead"></span>
+  <span id="cell168" class="cell dead"></span>
+  <span id="cell169" class="cell dead"></span>
+  <span id="cell170" class="cell dead"></span>
+  <span id="cell171" class="cell dead"></span>
+  <span id="cell172" class="cell dead"></span>
+  <span id="cell173" class="cell dead"></span>
+  <span id="cell174" class="cell dead"></span>
+  <span id="cell175" class="cell dead"></span>
+  <span id="cell176" class="cell dead"></span>
+  <span id="cell177" class="cell dead"></span>
+  <span id="cell178" class="cell dead"></span>
+  <span id="cell179" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell180" class="cell dead"></span>
+  <span id="cell181" class="cell dead"></span>
+  <span id="cell182" class="cell dead"></span>
+  <span id="cell183" class="cell dead"></span>
+  <span id="cell184" class="cell dead"></span>
+  <span id="cell185" class="cell dead"></span>
+  <span id="cell186" class="cell dead"></span>
+  <span id="cell187" class="cell dead"></span>
+  <span id="cell188" class="cell dead"></span>
+  <span id="cell189" class="cell dead"></span>
+  <span id="cell190" class="cell dead"></span>
+  <span id="cell191" class="cell dead"></span>
+  <span id="cell192" class="cell dead"></span>
+  <span id="cell193" class="cell dead"></span>
+  <span id="cell194" class="cell dead"></span>
+  <span id="cell195" class="cell dead"></span>
+  <span id="cell196" class="cell dead"></span>
+  <span id="cell197" class="cell dead"></span>
+  <span id="cell198" class="cell dead"></span>
+  <span id="cell199" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell200" class="cell dead"></span>
+  <span id="cell201" class="cell dead"></span>
+  <span id="cell202" class="cell dead"></span>
+  <span id="cell203" class="cell dead"></span>
+  <span id="cell204" class="cell dead"></span>
+  <span id="cell205" class="cell dead"></span>
+  <span id="cell206" class="cell dead"></span>
+  <span id="cell207" class="cell dead"></span>
+  <span id="cell208" class="cell dead"></span>
+  <span id="cell209" class="cell dead"></span>
+  <span id="cell210" class="cell dead"></span>
+  <span id="cell211" class="cell dead"></span>
+  <span id="cell212" class="cell dead"></span>
+  <span id="cell213" class="cell dead"></span>
+  <span id="cell214" class="cell dead"></span>
+  <span id="cell215" class="cell dead"></span>
+  <span id="cell216" class="cell dead"></span>
+  <span id="cell217" class="cell dead"></span>
+  <span id="cell218" class="cell dead"></span>
+  <span id="cell219" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell220" class="cell dead"></span>
+  <span id="cell221" class="cell dead"></span>
+  <span id="cell222" class="cell dead"></span>
+  <span id="cell223" class="cell dead"></span>
+  <span id="cell224" class="cell dead"></span>
+  <span id="cell225" class="cell dead"></span>
+  <span id="cell226" class="cell dead"></span>
+  <span id="cell227" class="cell dead"></span>
+  <span id="cell228" class="cell dead"></span>
+  <span id="cell229" class="cell dead"></span>
+  <span id="cell230" class="cell dead"></span>
+  <span id="cell231" class="cell dead"></span>
+  <span id="cell232" class="cell dead"></span>
+  <span id="cell233" class="cell dead"></span>
+  <span id="cell234" class="cell dead"></span>
+  <span id="cell235" class="cell dead"></span>
+  <span id="cell236" class="cell dead"></span>
+  <span id="cell237" class="cell dead"></span>
+  <span id="cell238" class="cell dead"></span>
+  <span id="cell239" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell240" class="cell dead"></span>
+  <span id="cell241" class="cell dead"></span>
+  <span id="cell242" class="cell dead"></span>
+  <span id="cell243" class="cell dead"></span>
+  <span id="cell244" class="cell dead"></span>
+  <span id="cell245" class="cell dead"></span>
+  <span id="cell246" class="cell dead"></span>
+  <span id="cell247" class="cell dead"></span>
+  <span id="cell248" class="cell dead"></span>
+  <span id="cell249" class="cell dead"></span>
+  <span id="cell250" class="cell dead"></span>
+  <span id="cell251" class="cell dead"></span>
+  <span id="cell252" class="cell dead"></span>
+  <span id="cell253" class="cell dead"></span>
+  <span id="cell254" class="cell dead"></span>
+  <span id="cell255" class="cell dead"></span>
+  <span id="cell256" class="cell dead"></span>
+  <span id="cell257" class="cell dead"></span>
+  <span id="cell258" class="cell dead"></span>
+  <span id="cell259" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell260" class="cell dead"></span>
+  <span id="cell261" class="cell dead"></span>
+  <span id="cell262" class="cell dead"></span>
+  <span id="cell263" class="cell dead"></span>
+  <span id="cell264" class="cell dead"></span>
+  <span id="cell265" class="cell dead"></span>
+  <span id="cell266" class="cell dead"></span>
+  <span id="cell267" class="cell dead"></span>
+  <span id="cell268" class="cell dead"></span>
+  <span id="cell269" class="cell dead"></span>
+  <span id="cell270" class="cell dead"></span>
+  <span id="cell271" class="cell dead"></span>
+  <span id="cell272" class="cell dead"></span>
+  <span id="cell273" class="cell dead"></span>
+  <span id="cell274" class="cell dead"></span>
+  <span id="cell275" class="cell dead"></span>
+  <span id="cell276" class="cell dead"></span>
+  <span id="cell277" class="cell dead"></span>
+  <span id="cell278" class="cell dead"></span>
+  <span id="cell279" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell280" class="cell dead"></span>
+  <span id="cell281" class="cell dead"></span>
+  <span id="cell282" class="cell dead"></span>
+  <span id="cell283" class="cell dead"></span>
+  <span id="cell284" class="cell dead"></span>
+  <span id="cell285" class="cell dead"></span>
+  <span id="cell286" class="cell dead"></span>
+  <span id="cell287" class="cell dead"></span>
+  <span id="cell288" class="cell dead"></span>
+  <span id="cell289" class="cell dead"></span>
+  <span id="cell290" class="cell dead"></span>
+  <span id="cell291" class="cell dead"></span>
+  <span id="cell292" class="cell dead"></span>
+  <span id="cell293" class="cell dead"></span>
+  <span id="cell294" class="cell dead"></span>
+  <span id="cell295" class="cell dead"></span>
+  <span id="cell296" class="cell dead"></span>
+  <span id="cell297" class="cell dead"></span>
+  <span id="cell298" class="cell dead"></span>
+  <span id="cell299" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell300" class="cell dead"></span>
+  <span id="cell301" class="cell dead"></span>
+  <span id="cell302" class="cell dead"></span>
+  <span id="cell303" class="cell dead"></span>
+  <span id="cell304" class="cell dead"></span>
+  <span id="cell305" class="cell dead"></span>
+  <span id="cell306" class="cell dead"></span>
+  <span id="cell307" class="cell dead"></span>
+  <span id="cell308" class="cell dead"></span>
+  <span id="cell309" class="cell dead"></span>
+  <span id="cell310" class="cell dead"></span>
+  <span id="cell311" class="cell dead"></span>
+  <span id="cell312" class="cell dead"></span>
+  <span id="cell313" class="cell dead"></span>
+  <span id="cell314" class="cell dead"></span>
+  <span id="cell315" class="cell dead"></span>
+  <span id="cell316" class="cell dead"></span>
+  <span id="cell317" class="cell dead"></span>
+  <span id="cell318" class="cell dead"></span>
+  <span id="cell319" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell320" class="cell dead"></span>
+  <span id="cell321" class="cell dead"></span>
+  <span id="cell322" class="cell dead"></span>
+  <span id="cell323" class="cell dead"></span>
+  <span id="cell324" class="cell dead"></span>
+  <span id="cell325" class="cell dead"></span>
+  <span id="cell326" class="cell dead"></span>
+  <span id="cell327" class="cell dead"></span>
+  <span id="cell328" class="cell dead"></span>
+  <span id="cell329" class="cell dead"></span>
+  <span id="cell330" class="cell dead"></span>
+  <span id="cell331" class="cell dead"></span>
+  <span id="cell332" class="cell dead"></span>
+  <span id="cell333" class="cell dead"></span>
+  <span id="cell334" class="cell dead"></span>
+  <span id="cell335" class="cell dead"></span>
+  <span id="cell336" class="cell dead"></span>
+  <span id="cell337" class="cell dead"></span>
+  <span id="cell338" class="cell dead"></span>
+  <span id="cell339" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell340" class="cell dead"></span>
+  <span id="cell341" class="cell dead"></span>
+  <span id="cell342" class="cell dead"></span>
+  <span id="cell343" class="cell dead"></span>
+  <span id="cell344" class="cell dead"></span>
+  <span id="cell345" class="cell dead"></span>
+  <span id="cell346" class="cell dead"></span>
+  <span id="cell347" class="cell dead"></span>
+  <span id="cell348" class="cell dead"></span>
+  <span id="cell349" class="cell dead"></span>
+  <span id="cell350" class="cell dead"></span>
+  <span id="cell351" class="cell dead"></span>
+  <span id="cell352" class="cell dead"></span>
+  <span id="cell353" class="cell dead"></span>
+  <span id="cell354" class="cell dead"></span>
+  <span id="cell355" class="cell dead"></span>
+  <span id="cell356" class="cell dead"></span>
+  <span id="cell357" class="cell dead"></span>
+  <span id="cell358" class="cell dead"></span>
+  <span id="cell359" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell360" class="cell dead"></span>
+  <span id="cell361" class="cell dead"></span>
+  <span id="cell362" class="cell dead"></span>
+  <span id="cell363" class="cell dead"></span>
+  <span id="cell364" class="cell dead"></span>
+  <span id="cell365" class="cell dead"></span>
+  <span id="cell366" class="cell dead"></span>
+  <span id="cell367" class="cell dead"></span>
+  <span id="cell368" class="cell dead"></span>
+  <span id="cell369" class="cell dead"></span>
+  <span id="cell370" class="cell dead"></span>
+  <span id="cell371" class="cell dead"></span>
+  <span id="cell372" class="cell dead"></span>
+  <span id="cell373" class="cell dead"></span>
+  <span id="cell374" class="cell dead"></span>
+  <span id="cell375" class="cell dead"></span>
+  <span id="cell376" class="cell dead"></span>
+  <span id="cell377" class="cell dead"></span>
+  <span id="cell378" class="cell dead"></span>
+  <span id="cell379" class="cell dead"></span>
+</div>
+<div class="row">
+  <span id="cell380" class="cell dead"></span>
+  <span id="cell381" class="cell dead"></span>
+  <span id="cell382" class="cell dead"></span>
+  <span id="cell383" class="cell dead"></span>
+  <span id="cell384" class="cell dead"></span>
+  <span id="cell385" class="cell dead"></span>
+  <span id="cell386" class="cell dead"></span>
+  <span id="cell387" class="cell dead"></span>
+  <span id="cell388" class="cell dead"></span>
+  <span id="cell389" class="cell dead"></span>
+  <span id="cell390" class="cell dead"></span>
+  <span id="cell391" class="cell dead"></span>
+  <span id="cell392" class="cell dead"></span>
+  <span id="cell393" class="cell dead"></span>
+  <span id="cell394" class="cell dead"></span>
+  <span id="cell395" class="cell dead"></span>
+  <span id="cell396" class="cell dead"></span>
+  <span id="cell397" class="cell dead"></span>
+  <span id="cell398" class="cell dead"></span>
+  <span id="cell399" class="cell dead"></span>
 </div>
