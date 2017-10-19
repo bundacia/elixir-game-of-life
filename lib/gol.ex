@@ -6,6 +6,54 @@ defmodule Gol do
   Contexts are also responsible for managing your data, regardless
   if it comes from the database, an external API or others.
   """
+  require Logger
+  use GenServer
+
+  @o false
+  @x true
+  @map [
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @x, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @x, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @x, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @x, @x, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @x, @x, @x, @o, @o, @o, @o, @o, @o, @x, @o, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @x, @x, @x, @o, @o, @o, @o, @o, @x, @x, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @x, @x, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @x, @x, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @x, @x, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @x, @o, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @x, @x, @x, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+    @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o, @o,
+  ]
+      
+  def start_link(state, opts \\ []) do
+    GenServer.start_link(__MODULE__, state, opts)
+  end
+
+  def init(state) do
+    state = Map.put(state, :map, @map)
+    schedule_tick()
+    {:ok, state}
+  end
+
+  defp schedule_tick do
+    Process.send_after(self(), :tick, 1000)
+  end
+
+  def handle_info(:tick, state) do
+    state = %{state | map: next_tick(state.map)}
+    state.handle_tick.(state.map)
+    schedule_tick()
+    {:noreply, state}
+  end
 
   def next_tick(map) do
     map
